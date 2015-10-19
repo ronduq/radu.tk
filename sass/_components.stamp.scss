@@ -1,0 +1,57 @@
+// Modules and Variables
+.o-stamps {
+	list-style-type: none;
+
+	.c-stamp {
+		display: inline-block;
+		margin: 0 15px 15px 0;
+	}
+}
+
+.c-stamp{
+	background: url(../img/stamp-#{random(3)}.png);
+	background-size: 100%;
+	height: 80px;
+	width: 80px;
+}
+.c-stamp__logo{
+	height:100%;
+	width:100%;
+	-webkit-filter: grayscale(100%);
+			filter: grayscale(100%);
+	transition: .2s all;
+
+	&:hover{
+		-webkit-filter: grayscale(0%);
+				filter: grayscale(0%);
+	}
+}
+
+.c-stamp__logo--itv 	{ 	background: url(../img/logo-itv.png) no-repeat center center; 
+							background-size: 70% 70%;
+						}
+.c-stamp__logo--channel5 { 	background: url(../img/logo-channel5.png) no-repeat center center; 
+							background-size: 70% 70%;}
+.c-stamp__logo--cn 		{ 	background: url(../img/logo-cn.png) no-repeat center center; 
+							background-size: 70% 70%;}
+.c-stamp__logo--disney { 	background: url(../img/logo-disney.png) no-repeat center center; 
+							background-size: 70% 70%;}
+.c-stamp__logo--lv 		{ 	background: url(../img/logo-lv.png) no-repeat center center; 
+							background-size: 70% 70%;}
+.c-stamp__logo--cartier { 	background: url(../img/logo-cartier.png) no-repeat center center; 
+							background-size: 70% 70%;}
+.c-stamp__logo--qb 		{ 	background: url(../img/logo-qb.png) no-repeat center center; 
+							background-size: 70% 70%;}
+.c-stamp__logo--rwc 	{ 	background: url(../img/logo-rwc.png) no-repeat center center; 
+							background-size: 70% 70%;}
+.c-stamp__logo--sm 		{ 	background: url(../img/logo-sm.png) no-repeat center center; 
+							background-size: 70% 70%;}
+.c-stamp__logo--butlins { 	background: url(../img/logo-butlins.png) no-repeat center center; 
+							background-size: 70% 70%;}
+.c-stamp__logo--haven 	{ 	background: url(../img/logo-haven.png) no-repeat center center; 
+							background-size: 70% 70%;}
+.c-stamp__logo--warner 	{ 	background: url(../img/logo-warner.png) no-repeat center center; 
+							background-size: 70% 70%;}
+.c-stamp__logo--swizzels{ 	background: url(../img/logo-swizzels.png) no-repeat center center; 
+							background-size: 70% 70%;}
+

@@ -1,0 +1,50 @@
+// Modules and Variables
+
+.o-websites{
+	list-style-type: none;
+
+	li {
+		display: inline-block;
+		width: 33.3%;
+
+		@media screen and (max-width: 670px){
+			width: 50%;
+		}
+		@media screen and (max-width: 440px){
+			width: 100%;
+		}
+	}
+
+}
+.c-webistes__logo {
+	
+	-webkit-filter: brightness(100);
+			filter: brightness(100);
+	display: block;
+	margin: 10px auto;
+	height: 120px;
+	width:100px;
+	transition: all .2s ease-in-out;
+	
+	&:hover{
+	
+		-webkit-filter: brightness(1);
+				filter: brightness(1);
+	}
+}
+.c-webistes__logo-rwc { 
+	background:url(../img/logo-rwc.png) no-repeat center center;
+	background-size: auto 100% ;
+}
+.c-webistes__logo-gotoo { 
+	background:url(../img/logo-gotoo.png) no-repeat center center;
+	background-size: 100% auto ;
+}
+.c-webistes__logo-gosmarter { 
+	background:url(../img/logo-gosmarter.png) no-repeat center center;
+	background-size: 100% auto;
+}
+.c-webistes__logo-embark { 
+	background:url(../img/logo-embark.png) no-repeat center center;
+	background-size: 100% auto ;
+}

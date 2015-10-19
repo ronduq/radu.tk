@@ -1,0 +1,11 @@
+@font-face {
+    font-family: Snell;
+    src: url(../fonts/aardc.eot);
+}
+
+h2 {
+	font-family:Snell;
+	font-size: 76px;
+	color: #9ab01c;
+	margin-left:25px;
+}

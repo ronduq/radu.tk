@@ -1,0 +1,33 @@
+// Modules and Variables
+
+@import "settings.colours";
+@import "settings.fonts";
+@import "settings.reset";
+
+
+@import "objects.background";
+@import "objects.wrapper";
+@import "objects.header-decor";
+@import "objects.header";
+
+@import "components.logo";
+@import "components.romb";
+@import "components.lines";
+@import "components.clip";
+@import "components.lang";
+@import "components.icon";
+@import "components.frame";
+@import "components.table-list";
+@import "components.stamp";
+@import "components.big-romb";
+@import "components.websites";
+
+h1, h2, h3, h4, h5 {
+  font-family: $font-header;
+}
+h2{
+	font-size: 1.2rem;
+}
+h5 {
+	font-size: 0.8rem;
+}

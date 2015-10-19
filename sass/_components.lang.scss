@@ -1,0 +1,31 @@
+// Modules and Variables
+
+.c-lang {
+	display: inline-block;
+	width:33%;
+	margin:0;
+	text-align: center;
+	vertical-align: top;
+
+	@media screen and (max-width: 400px){
+		width: 100%;
+	}
+
+}
+.c-lang__img {
+	height:120px;
+	width: 120px;
+	background-size: 100% auto;
+	margin: 20px auto 20px;
+}
+.c-lang__img--html { background: url(../img/logo-html.png) no-repeat center center / 100% auto; }
+.c-lang__img--css  { background: url(../img/logo-css.png) no-repeat center center / 100% auto; }
+.c-lang__img--js   { background: url(../img/logo-js.png) no-repeat center center / 100% auto; }
+
+.c-lang__list {
+	list-style-type: none;
+	text-transform: uppercase;
+	font-family: $font-header;
+	font-size: 0.8rem;
+	line-height: 1.5rem;
+}

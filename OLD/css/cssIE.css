@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Snell;
+    src: url(../fonts/aardc.eot);
+}
+
+h2 {
+	font-family:Snell;
+	font-size: 76px;
+	color: #9ab01c;
+	margin-left:25px;
+}
+
+.details1, .details2, .details3, .details4, .details5{
+	text-align:center;
+	position:relative;
+	text-decoration:none;
+	width: 170px;
+	height: 170px;
+	top:-185px;
+	opacity: 0;
+		
+	-ms-transition:all;
+	-ms-transition-timing-function: ease-out;
+	-ms-transition-duration: 500ms;
+}

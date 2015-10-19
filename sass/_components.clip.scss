@@ -1,0 +1,20 @@
+// Modules and Variables
+
+.c-clip {
+	background: url(../img/clip.png) no-repeat;
+	background-size: 100%;
+	display: block;
+	height: 180px;
+	width: 45px;
+	position: absolute;
+	top: -115px;
+	background-size: 100%;
+}
+
+.c-clip--left{
+	left: 30px;
+}
+.c-clip--right {
+	right: 30px;
+	transform: scale(-1, 1);
+}

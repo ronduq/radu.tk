@@ -1,0 +1,178 @@
+html {
+	height: 100%;
+}
+
+.body{
+	height:100%;
+	background: #f3f3f3; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f3f3f3', endColorstr='#cfcdcd'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#f3f3f3), to(#cfcdcd)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #f3f3f3,  #cfcdcd); /* for firefox 3.6+ */ 
+	background-repeat:no-repeat;
+	
+}
+
+@font-face {
+    font-family: Snell;
+    src: url(../fonts/SnellReg.ttf);
+	src: url(../fonts/SnellReg.eot);
+}
+
+@font-face {
+ 	font-family: Trebuchet;
+	src: url(../fonts/trebuc.ttf);
+	src: url(../fonts/trebuc.eot);
+}
+.content{
+	margin-top:-20px;
+}
+h1{
+	font: bold 28px Snell;
+	height: 20px;
+	text-align:left;
+	margin-left:30px;
+}
+h2{
+	font: bold 11px Trebuchet;
+	text-align:left;
+	margin-left:30px;
+}
+
+/* bottom style*/
+.lavaLampBottomStyle {
+	position: relative;
+    height: 80px;
+    width: 800px;
+    padding: 45px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+.lavaLampBottomStyle li {
+    float: left;
+    list-style: none;
+}
+.lavaLampBottomStyle li.back {
+    border-bottom: 5px solid black;
+    width: 2px;
+    height: 60px;
+    z-index: 8;
+    position: absolute;
+}
+.lavaLampBottomStyle li a {
+    font: bold 36px Snell;
+    text-decoration: none;
+    color: #000;
+    outline: none;
+	text-align: center;
+    top: 7px;
+    /*text-transform: uppercase;*/
+    letter-spacing: 0;
+    z-index: 10;
+    display: block;
+    float: left;
+    height: 50px;
+	width: 160px;
+    position: relative;
+    overflow: hidden;
+    margin: auto 50px;
+}   
+.lavaLampBottomStyle li a:hover, .lavaLampBottomStyle li a:active, .lavaLampBottomStyle li a:visited {
+    border: none;
+}   
+/*end bottom style*/
+
+/*with image*/
+.lavaLampWithImage {
+    position: relative;
+    height: 120px;
+    width: 800px;
+    padding: 15px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+.lavaLampWithImage li {
+    float: left;
+    list-style: none;
+}
+.lavaLampWithImage li.back {
+    background: url("images/rect.png") no-repeat right 0px;
+    width: 9px; height: 120px;
+    z-index: 8;
+    position: absolute;
+}
+.lavaLampWithImage li.back .left {
+    background: url("images/rect.png") no-repeat top left;
+    height: 120px;
+    margin-right: 9px; /* 7px is the width of the rounded shape */
+}
+.lavaLampWithImage li a {
+    font: bold 14px arial;
+    text-decoration: none;
+    color: #fff;
+    outline: none;
+    text-align: center;
+    top: 7px;
+    letter-spacing: 0;
+    z-index: 10;
+    display: block;
+    float: left;
+    height: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: auto 10px;    
+}
+.lavaLampWithImage li a:hover, .lavaLampWithImage li a:active, .lavaLampWithImage li a:visited {
+    border: none;
+}
+/* end with image*/
+.portList{
+	padding-left:30px;
+	font-family: Trebuchet;
+	font-size: 11px;
+	text-decoration: none;
+	text-align:center;
+	border:none;
+}
+.portList2{
+	font-family: Trebuchet;
+	font-size: 11px;
+	text-decoration: none;
+	text-align:center;
+	border:none;
+}
+a{
+	text-decoration:none;
+	color:black;
+	border:none;
+	text-align:center;
+}
+
+.hr {
+	margin:-30px 0px 0px 0px;
+	padding:0px;
+	border-bottom:1px solid #000;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	line-height:0px;
+	height:1px;
+	width:800px;
+	text-align:left;
+	display:block;
+}   
+.hr2 {
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	border-bottom:1px solid #CCC;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	line-height:0px;
+	height:1px;
+	width:800px;
+	text-align:left;
+	display:block;
+}               
+.rullerCell {
+	text-align:left;
+}

@@ -1,0 +1,29 @@
+// Modules and Variables
+
+.c-frame {
+	display: inline-block;
+	border: 3px solid $color-grey;
+	border-radius: 3px;
+	font-family: $font-title;
+	font-weight: 100;
+	text-align: center;
+	position:relative;
+	width: auto;
+	
+}
+.c-frame__img {
+	display:block;
+	-webkit-filter: grayscale(100%);
+			filter: grayscale(100%);
+	margin:-15px auto 0;
+	padding: 5px;
+}
+.c-frame__title {
+	background: $color-red;
+	color: #fff;
+	font-size: 0.5rem;
+	margin: -5px auto 5px;
+	padding: 10px 5px;
+	text-transform: uppercase;
+	width: 80px;
+}

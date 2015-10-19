@@ -1,0 +1,22 @@
+// Modules and Variables
+
+.c-big-romb {
+	background: url(../img/romb-big2.png) no-repeat center center;
+
+	height: 180px;
+	width: 300px;
+
+	@media screen and (max-width: 900px){
+		background: url(../img/romb-big2.png) no-repeat center center;
+		background-size: 95%;
+	}
+	@media screen and (max-width: 440px){
+		background: url(../img/romb-big2.png) no-repeat center center;
+		background-size: 70%;
+	}
+
+	a {
+		display: block;
+		margin-top: 25px;
+	}
+}

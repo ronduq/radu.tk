@@ -1,0 +1,33 @@
+// Modules and Variables
+
+.c-table-list {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+
+	.o-home__tools & {
+		margin-top: 50px;
+	}
+
+	li {
+		display: table-cell;
+		text-align: center;
+		width: 100px;
+	}
+
+	@media screen and (max-width: 640px){
+		display:block;
+
+		li {
+			display: inline-block;
+			margin-bottom: 10px;
+			width: 32%;
+		}
+	}
+	@media screen and (max-width: 350px){
+
+		li {
+			width: 49%;
+		}
+	}
+}
